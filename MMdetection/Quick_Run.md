@@ -23,16 +23,9 @@ MMDetection에서 모델은 구성 파일에 의해 정의되고 기존 모델�
 
 우선 이 구성파일(configure file)과 체크포인트(ckp) 파일을 사용하여 Faster RCNN을 사용 해보는 것을 권장한다.
 <br>  
+<br>  
 
-
-
-  
-    
-      
-      
-
-
-**__추론을 위한 고급 API 사용 예시__**
+**<U>추론을 위한 고급 API 사용 예시</U>**
 
 ``` python
 from mmdet.apis import init_detector, inference_detector
