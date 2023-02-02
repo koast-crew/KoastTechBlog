@@ -1,31 +1,6 @@
-- [[#사전준비|사전준비]]
-- [[#설치|설치]]
-	- [[#표준|표준]]
-	- [[#설치 검증|설치 검증]]
-	- [[#사용자 정의 설치|사용자 정의 설치]]
-		- [[#사용자 정의 설치#CUDA 버전|CUDA 버전]]
-		- [[#사용자 정의 설치#MIM 없이 MMCV 설치|MIM 없이 MMCV 설치]]
-		- [[#사용자 정의 설치#CPU 전용 플랫폼에 설치|CPU 전용 플랫폼에 설치]]
-		- [[#사용자 정의 설치#Google Colab에서 설치|Google Colab에서 설치]]
-		- [[#사용자 정의 설치#Docker를 이용한 MMDetection 사용|Docker를 이용한 MMDetection 사용]]
-- [[#벤치마크와 MODEL ZOO|벤치마크와 MODEL ZOO]]
-	- [[#미러 사이트|미러 사이트]]
-	- [[#일반 설정|일반 설정]]
-	- [[#ImageNet 사전학습된 모델|ImageNet 사전학습된 모델]]
-	- [[#베이스라인|베이스라인]]
-			- [[#Docker를 이용한 MMDetection 사용#Other datasets|Other datasets]]
-			- [[#Docker를 이용한 MMDetection 사용#사전 학습된 모델들|사전 학습된 모델들]]
-	- [[#벤치마크 속도|벤치마크 속도]]
-		- [[#벤치마크 속도#학습 속도 벤치마크|학습 속도 벤치마크]]
-		- [[#벤치마크 속도#추론 속도 벤치마크|추론 속도 벤치마크]]
-	- [[#Detectron2와 비교|Detectron2와 비교]]
-		- [[#Detectron2와 비교#Hardware|Hardware]]
-		- [[#Detectron2와 비교#Software environment|Software environment]]
-		- [[#Detectron2와 비교#Performance|Performance]]
-		- [[#Detectron2와 비교#Training Speed|Training Speed]]
-		- [[#Detectron2와 비교#추론 속도|추론 속도]]
-		- [[#Detectron2와 비교#학습 메모리|학습 메모리]]
-
+- [사전준비](#사전준비)		
+- [설치](#설치)
+- [벤치마크와 MODEL ZOO](#벤치마크와-MODEL-ZOO)
 
 # 사전준비
 - PyTorch 환경을 구축하기 위한 방법을 소개합니다.
