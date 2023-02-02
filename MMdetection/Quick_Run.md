@@ -1,4 +1,4 @@
-# 1. 기존에 정의된 모델 및 표준 데이터 세트를 이용하여 학습 및 추론
+# Quick Run
 
 
 MMDetection은 [Model zoo](https://mmdetection.readthedocs.io/en/latest/model_zoo.html) 에서 수많은 객체 탐지 모델을 제공하고, Pascal VOC, COCO, CityScapes, LVIS 등을 포함한 여러가지 데이터 세트를 지원한다.
@@ -11,7 +11,7 @@ MMDetection은 [Model zoo](https://mmdetection.readthedocs.io/en/latest/model_zo
 
 1. [기존 모델을 사용하여 주어진 이미지 추론](##1.기존-모델을-사용하여-주어진-이미지-추론)
 
-2. [표준 데이터 세트에서 기존 모델을 테스트](##2. 표준 데이터 세트에서 기존 모델을 테스트)
+2. [표준 데이터 세트에서 기존 모델을 테스트](#2-표준-데이터-세트에서-기존-모델을-테스트)
 
 3. [표준 데이터 세트에서 사전 정의된 모델을 학습]()
 
