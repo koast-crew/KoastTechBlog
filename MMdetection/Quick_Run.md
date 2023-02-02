@@ -179,7 +179,7 @@ mmdetection
 │   │   ├── stuffthingmaps
 ```
 
-PanopticFPN과 같은 Panoptic 분할 모델에는 추가 [COCO Panoptic](http://images.cocodataset.org/annotations/panoptic_annotations_trainval2017.zip) 데이터 세트가 필요합니다. 다운로드하고 압축을 푼 다음 coco 주석 폴더로 이동할 수 있습니다. 디렉토리는 다음과 같아야 합니다.
+PanopticFPN과 같은 Panoptic 분할 모델에는 추가 [COCO Panoptic](http://images.cocodataset.org/annotations/panoptic_annotations_trainval2017.zip) 데이터 세트가 필요하다. 다운로드하고 압축을 푼 다음 coco Panoptic  폴더로 이동할 수 있다. 디렉토리는 다음과 같아야 한다.
 ```
 mmdetection
 ├── data
@@ -194,7 +194,7 @@ mmdetection
 │   │   ├── test2017
 ```
 
-도시 경관 주석은 다음을 사용하여 coco 형식으로 변환해야 합니다
+도시 경관 주석은 다음을 사용하여 coco 형식으로 변환해야 한다.
 ```
 tools/dataset_converters/cityscapes.py.
 ```
@@ -246,19 +246,19 @@ bash tools/dist_test.sh \
 tools/dist_test.sh 다중 노드 테스트도 지원하지만 PyTorch의 실행 유틸리티에 의존한다.
 
 옵션 인수:
-- RESULT_FILE: 피클 형식의 출력 결과 파일 이름입니다. 지정하지 않으면 결과가 파일에 저장되지 않습니다.
+- RESULT_FILE: 피클 형식의 출력 결과 파일 이름. 지정하지 않으면 결과가 파일에 저장되지 않는다.
 
-- EVAL_METRICS: 결과에 대해 평가할 항목입니다. 허용 되는 값 은 데이터 세트 proposal_fast에 proposal따라 다릅니다 . 도시경관은 모든 COCO 메트릭으로 평가할 수 있습니다 .bboxsegmmAPrecallcityscapes
+- EVAL_METRICS: 결과에 대해 평가할 항목. 허용 되는 값 은 데이터 세트 proposal_fast에 proposal따라 다르다 . 도시경관은 모든 COCO 메트릭으로 평가할 수 있 있다. .bboxsegmmAPrecallcityscapes
 
-- --show: 지정하면 감지 결과가 이미지에 플롯되고 새 창에 표시됩니다. 단일 GPU 테스트에만 적용 가능하며 디버깅 및 시각화에 사용됩니다. 사용자 환경에서 GUI를 사용할 수 있는지 확인하십시오. 그렇지 않으면 와 같은 오류가 발생할 수 있습니다 .cannot connect to X server
+- --show: 지정하면 감지 결과가 이미지에 플롯되고 새 창에 표시된다.. 단일 GPU 테스트에만 적용 가능하며 디버깅 및 시각화에 사용된다.. 사용자 환경에서 GUI를 사용할 수 있는지 확인이 필요하다. 그렇지 않으면 와 같은 오류가 발생할 수 있다.cannot connect to X server
 
-- --show-dir: 지정하면 감지 결과가 이미지에 그려지고 지정된 디렉토리에 저장됩니다. 단일 GPU 테스트에만 적용 가능하며 디버깅 및 시각화에 사용됩니다. 이 옵션을 사용하기 위해 사용자 환경에서 사용 가능한 GUI가 필요하지 않습니다.
+- --show-dir: 지정하면 감지 결과가 이미지에 그려지고 지정된 디렉토리에 저장된다. 단일 GPU 테스트에만 적용 가능하며 디버깅 및 시각화에 사용된다. 이 옵션을 사용하기 위해 사용자 환경에서 사용 가능한 GUI가 필요하지 않다.
 
-- --show-score-thr: 지정된 경우 이 임계값 미만의 점수를 가진 탐지는 제거됩니다.
+- --show-score-thr: 지정된 경우 이 임계값 미만의 점수를 가진 탐지는 제거된다.
 
-- --cfg-options: 지정된 경우 키-값 쌍 선택적 cfg가 구성 파일에 병합됩니다.
+- --cfg-options: 지정된 경우 키-값 쌍 선택적 cfg가 구성 파일에 병합된다.
 
-- --eval-options: 지정된 경우 키-값 쌍 선택적 eval cfg는 dataset.evaluate() 함수에 대해 kwargs가 되며 평가 전용입니다.
+- --eval-options: 지정된 경우 키-값 쌍 선택적 eval cfg는 dataset.evaluate() 함수에 대해 kwargs가 되며 평가 전용이다.
 
 ### 사용 예시
 체크포인트를 이미 다운로드 했다고 가정한다. (checkpoints/)
