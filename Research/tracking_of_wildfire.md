@@ -4,7 +4,7 @@
 - Introduction
 위성 이미지와 ML 기법을 사용하여 실시간으로 산불을 추적하는 시스템
 10~15분마다 정보 업데이트  
-사전 연구 (https://medium.com/google-earth/how-to-generate-wildfire-boundary-maps-with-earth-engine-b38eadc97a38)보다 성능 개선 
+사전 연구 (https://medium.com/google-earth/how-to-generate-wildfire-boundary-maps-with-earth-engine-b38eadc97a38) 보다 성능 개선 
 미국, 멕시코, 캐나다, 호주 등에서 발생하는 대형 화재를 구글 검색 및 지도에 표시  
 
 - Inputs
