@@ -1,4 +1,4 @@
-# 기상 관련 유용한 서비스 & 사이트       
+# Useful Sites      
 
 ## 국내   
 ### 기상자료개방포털 ([링크](https://data.kma.go.kr/cmmn/main.do))    
